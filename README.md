@@ -1,10 +1,10 @@
 # LLM Ethics Library
 A Library for assessing the ethical capablilites of LLMs through prompting them with ethical dilemmas.
 
-Functions:
+- Functions:
 - Generating many variations of prompts
-  - to make sure irrelevant factors like "output option ordering" or "dilemma formulation" have no siginficant impact on the results 
-- Prompting of LLMs (currently only OpenAI ChatGPT)
+  - to make sure irrelevant factors like "output option ordering" or "dilemma formulation" have no siginficant impact on the results
+- Prompting of LLMs (OpenAI ChatGPT or DeepSeek)
   - utilizes [structured output](https://platform.openai.com/docs/guides/structured-outputs) to ensure correct response format
 - Provides wrapper classes for Prompts and Responses to make working with them easier
   - Importing and Exporting from/to JSON is supported
