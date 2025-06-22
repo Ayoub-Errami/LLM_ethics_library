@@ -6,7 +6,7 @@ A Library for assessing the ethical capablilites of LLMs through prompting them 
   - to make sure irrelevant factors like "output option ordering" or "dilemma formulation" have no siginficant impact on the results
 - Prompting of LLMs (OpenAI ChatGPT, DeepSeek, or MistralAI)
   - utilizes [structured output](https://platform.openai.com/docs/guides/structured-outputs) to ensure correct response format
-  - includes a wrapper for MistralAI using the OpenAI-compatible endpoint `https://api.mistral.ai/v1`
+  - includes a wrapper for MistralAI and Deepseek using the OpenAI-compatible endpoints
 - Provides wrapper classes for Prompts and Responses to make working with them easier
   - Importing and Exporting from/to JSON is supported
 - Previously generated prompts & responses can be found in the `data` directory
