@@ -3,7 +3,7 @@ import json
 
 import openai
 
-from .prompt_wrapper import *
+from prompt_wrapper import *
 
 
 def test_openai_api(api_key: str):
@@ -17,6 +17,7 @@ def test_openai_api(api_key: str):
             max_tokens=5
         )
         print("WORKED")
+        print(response.choices[0].message.content)
     except Exception as e:
         print("An error occurred")
         raise e

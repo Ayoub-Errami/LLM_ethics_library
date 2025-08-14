@@ -1,7 +1,7 @@
 from enum import Enum
 from typing import Literal, Optional
 
-from .dilemma_wrapper import DilemmaWrapper, InvertableDilemmaWrapper, get_dilemma
+from dilemma_wrapper import DilemmaWrapper, InvertableDilemmaWrapper, get_dilemma
 
 
 class DecisionOption(Enum):
