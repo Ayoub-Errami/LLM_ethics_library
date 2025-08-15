@@ -244,8 +244,8 @@ class PromptWrapper:
 
 class LlmName(Enum):
     GPT4O = "gpt-4o"
-    DEEPSEEK = "deepseek-chat"
-    MISTRAL_SMALL = "mistral-small-latest"
+    DEEPSEEK = "deepseek-r1:671b-0528-q4_K_M"
+    MISTRAL_SMALL = "mistral:7b"
 
 
 class LlmMessageRole(Enum):

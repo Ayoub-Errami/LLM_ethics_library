@@ -1,9 +1,9 @@
 import os
 
-from library.prompt_factory import get_all_possible_prompts, base_prompts
-from library.prompt_wrapper import OutputComponentType, PromptWrapper
-from library.prompts_json import generate_prompt_json
-from library.version import VERSION
+from prompt_factory import get_all_possible_prompts, base_prompts
+from prompt_wrapper import OutputComponentType, PromptWrapper
+from prompts_json import generate_prompt_json
+from version import VERSION
 
 
 prompts_folder_path = os.path.join(os.path.dirname(__file__), "../data/prompts")

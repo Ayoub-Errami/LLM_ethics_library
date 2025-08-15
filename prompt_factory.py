@@ -2,9 +2,9 @@ import itertools
 import copy
 import json
 
-from .prompt_wrapper import DecisionOption, OutputComponentType, OutputStructure, PromptWrapper
-from .version import VERSION
-from .dilemma_wrapper import dilemmas, get_dilemma
+from prompt_wrapper import DecisionOption, OutputComponentType, OutputStructure, PromptWrapper
+from version import VERSION
+from dilemma_wrapper import dilemmas, get_dilemma
 
 option_str = {
     DecisionOption.YES: DecisionOption.YES.value,
