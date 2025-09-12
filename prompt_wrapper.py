@@ -243,14 +243,15 @@ class PromptWrapper:
 
 
 class LlmName(Enum):
-    GPT4O = "gpt-4o"
+    GPT4O = "gpt-5" #gpt-4o
     DEEPSEEK = "deepseek-r1:671b-0528-q4_K_M"
-    MISTRAL_SMALL = "mistral:7b"
+    MISTRAL = "mixtral:8x22b"
 
 
 class LlmMessageRole(Enum):
     SYSTEM = "system"
-    ASSISSANT = "assistant"
+    ASSISTANT = "assistant"
+    USER = "user"
 
 
 class LlmMessage:

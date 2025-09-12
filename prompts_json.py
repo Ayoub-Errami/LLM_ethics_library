@@ -1,7 +1,7 @@
 import json
 
-from .prompt_wrapper import PromptWrapper, Response
-from .version import VERSION
+from prompt_wrapper import PromptWrapper, Response
+from version import VERSION
 
 
 def generate_prompt_json(prompts: list[PromptWrapper], path: str):
